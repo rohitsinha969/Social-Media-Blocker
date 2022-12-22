@@ -280,4 +280,8 @@ const generateSTYLES = () => {
       document.head.innerHTML = generateSTYLES();
       document.body.innerHTML = generateHTML("Spotify");
       break;
+      case "web.snapchat.com":
+        document.head.innerHTML = generateSTYLES();
+        document.body.innerHTML = generateHTML("Snapchat");
+        break;
   }
